@@ -1,4 +1,4 @@
-import os,sys,shutil
+import os
 
 def seperate_train_data(path):
 
@@ -6,7 +6,7 @@ def seperate_train_data(path):
     os.makedirs(os.path.join('train', 'dog'))
         
     for i in os.listdir(path):
-        print(i)
+        
         if "cat" in i:
             old_path = path+"\\"+i
             new_path = 'train\cat\\'+i
@@ -18,4 +18,3 @@ def seperate_train_data(path):
 
         
 
-seperate_train_data(sys.argv[1])
