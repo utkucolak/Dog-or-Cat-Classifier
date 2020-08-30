@@ -13,7 +13,7 @@ class myCallback(Callback):
         if(logs.get('loss')<0.02):
             self.model.stop_training=True
 callbacks=myCallback()
-#seperate_data.seperate_train_data(sys.argv[1])
+seperate_data.seperate_train_data(sys.argv[1])
 #dim1=[]
 #dim2=[]
 #for test_img in os.listdir('train\\'+'cat'):
