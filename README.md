@@ -11,7 +11,7 @@ After that, you need to extract files from zip file, and run the script as shown
 py main.py <full-path-of-extracted-train-file>
 ```
 
-![alt text](https://hizliresim.com/ENFmOz.png)
+![alt text](https://i.hizliresim.com/ENFmOz.png)
 
 **Remember** Your extracted train file's name must be different than "train", python script will be create a "train" directory and "cat" and "dog" subdirectories inside of it.
 
