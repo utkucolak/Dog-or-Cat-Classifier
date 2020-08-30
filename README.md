@@ -21,7 +21,7 @@ Kaggle dataset wasn't that complicated but still not useful for direct training,
 ![alt text](https://i.hizliresim.com/Ent7iq.png)
 
 We have created a CNN model, which is a great model for image classification, and here is the code.
-![alt text](https://hizliresim.com/fKSGyu.png)
+![alt text](https://i.hizliresim.com/fKSGyu.png)
 
 Our model was so successful but training the model took a really long time. -around 5 hours-  Here is the epoch log and accuracy graph
 ![alt text](https://i.hizliresim.com/CNxN0n.png)
